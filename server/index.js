@@ -107,5 +107,4 @@ app.get("/password/:id", (req, res) => {
         .catch(err => res.json(err));
 });
 
-// Export the app so it can be used as a serverless function
 module.exports = app;
