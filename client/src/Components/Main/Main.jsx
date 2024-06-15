@@ -41,7 +41,7 @@ const Main = () => {
             <h1 className='text-center'>Its for Laptop Users</h1>
             </div>
         </div>
-      <div className=" xl:block flex h-screen py-5 w-full flex-col items-center justify-center p-6 text-slate-400/0 xl:text-slate-400">
+      <div className="hidden xl:block flex h-screen py-5 w-full flex-col items-center justify-center p-6 text-slate-400/0 xl:text-slate-400">
         <div className="grid h-full w-full grid-cols-10 gap-4">
           <Wifi />
           <Task />
